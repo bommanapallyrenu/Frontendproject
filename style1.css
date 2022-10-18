@@ -1,0 +1,47 @@
+html, body, .s1, .s2, .s3, .s4
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.s1{
+    background-image: url("./images/lion2.jpg");
+    text-align: center; background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+}
+
+.s2{
+    background-image: url("./images/zebra.jpg");
+    text-align: center; background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+}
+.s3{
+    background-image: url("./images/wilderbeast.jpg");
+    text-align: center; background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+}
+.s4{
+    background-image: url("./images/elephant.jpg");
+    text-align: center; background-repeat: no-repeat; background-size: cover;
+    background-attachment: fixed;
+}
+.footer1
+{
+    padding:  1em; text-align: center; background-color: rgb(36, 122, 73); color: whitesmoke; font-size: 1 em;
+}
+
+.flex-container
+{
+    display: flex; justify-content: space-evenly; flex-wrap: wrap;
+    background-color: cornflowerblue;
+}
+
+.flex-container > div{
+    background-color: gray;
+    margin: 10px; padding: auto; font-size: 30px;
+}
+
+.flex-img
+{
+    height: 100pt; width: 100pt; margin: 0%; padding: auto;
+}

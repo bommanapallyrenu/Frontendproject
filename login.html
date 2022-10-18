@@ -1,0 +1,72 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #F0FFFF;  
+}  
+button {     
+       	width: 30%;    
+        padding: 10px;   
+        margin: 10px 100px;   
+        border: none;   
+        cursor: pointer;
+ 	background-color: #555555;
+  	color: white; 
+  	border: 2px solid #555555;  
+         } 
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}  
+  
+ input[type=text], input[type=password] {   
+ 	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box 
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 10px;   
+        background-color: lightblue; 
+	width: 28%; 
+	alignment: center;
+	margin: auto;
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> User Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label><b>Username</b></label>   
+            <input type="text" placeholder="Enter Username" name="username" required> <br> 
+            <label><b>Password</b></label>   
+            <input type="password" placeholder="Enter Password" name="password" required>
+<br>  
+            <button type="submit">Login</button>   
+<br>
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html> 
